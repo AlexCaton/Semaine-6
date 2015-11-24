@@ -1,0 +1,87 @@
+/* element-balise */
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+
+	background-image: url(../img/fond.png);
+	background-repeat: repeat;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #000000;
+}
+ul {
+	list-style:outside none none;
+}
+
+/* Class */
+.conteneur {
+	width: 100%;      /* obligatoire */
+	max-width: 960px; /* obligatoire */
+	padding: 10px;    /* obligatoire */
+	margin: 15px;     /* obligatoire */
+	clear: both;
+	overflow: hidden;
+
+	background-color: #ffffff;
+}
+
+/* Header */
+.photo-contenent {
+	display: inline-block;
+	vertical-align: top;
+	width: 27%;
+}
+.photo {
+	 width:100%;
+}
+.titre-contenent {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 120px;
+	width: 55%;
+
+	font-size: 21px;
+}
+
+/* Main */
+.titre-colonne {
+	border-bottom: 1px solid;
+}
+.colonne {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 560px;
+	padding: 10px;
+
+	background-color: #ffffff;
+}
+.img-ambition {
+	width: 60px;
+}
+
+/* Footer */
+.google-map {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px; /* obligatoire */
+	width: 100%;
+}
+.info-contenent {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+}
+.info-text {
+	float: right;
+	margin-top: -40px;
+	margin-right: 150px;
+}
+
+/* style text */
+.font {
+	font-family:"Aria" verdana, sans-serif;
+	color: #737373;
+}
